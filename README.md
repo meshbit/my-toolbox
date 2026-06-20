@@ -1,16 +1,26 @@
-# React + Vite
+# 🧰 在线工具箱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+基于 React + Vite 的在线工具集合，所有数据处理均在浏览器本地完成，无需上传。
 
-Currently, two official plugins are available:
+## ✨ 特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **98 个工具** · **13 个分类**
+- 🔐 加密加密 | 🔣 编码解码 | 📝 格式化 | 🎲 生成器 | 📄 文本处理 | 🔄 转换器
+- 🌐 网络工具 | 🖼️ 图片工具 | 📐 数学计算 | 📅 日期时间 | 📋 快捷键 | 🔍 查询 | 🎮 小游戏
+- 🌙 暗色模式 · 🌍 中英文切换 · 📱 移动端适配
+- 🔒 所有数据本地处理，隐私安全
 
-## React Compiler
+## 🚀 本地运行
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev -- --host
+```
 
-## Expanding the ESLint configuration
+## 📦 技术栈
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React 19 · Vite 8 · CryptoJS · QRCode · i18next
+
+## 📄 许可证
+
+MIT
